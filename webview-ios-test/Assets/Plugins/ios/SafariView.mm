@@ -10,12 +10,13 @@ extern "C" {
 // ...
 @end
 
-@implementation SafariViewController
-- (void)safariViewControllerDidFinish:(SFSafariViewController *)controller {
-  NSLog(@"safariViewControllerDidFinish");
-  UnitySendMessage("BrowserController", "OnAuthCompleted", "OnAuthCompleted");
-}
-@end
+// @implementation SafariViewController
+// - (void)safariViewControllerDidFinish:(SFSafariViewController *)controller {
+//   NSLog(@"safariViewControllerDidFinish");
+//   UnitySendMessage("BrowserController", "OnAuthCompleted",
+//   "OnAuthCompleted");
+// }
+// @end
 
 @implementation SafariViewController
 

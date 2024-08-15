@@ -29,7 +29,7 @@ public class BrowserController : MonoBehaviour
     void Start()
     {
 #if UNITY_IOS
-        LaunchUrl("https://google.com");
+        SFSafariView.LaunchUrl("https://google.com");
 #endif
     }
 
